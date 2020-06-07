@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-import turtle
+from turtle import Turtle, Screen
 
 """ A simple program to draw a basic figure using the turtle module """
 
-artist = turtle.Turtle()
+artist = Turtle()
 artist.speed("fastest")
 
 def draw(drawing_color, drawing_size):
@@ -25,4 +25,6 @@ def main():
     for color, size in instructions:
         draw(color, size)
 
+window = Screen()
 main()
+window.exitonclick()
