@@ -21,6 +21,7 @@ def main():
         ("Red", 200),
         ("Blue", 150),
         ("Yellow", 75),
+        ("Pink", 25),
     ]
     for color, size in instructions:
         draw(color, size)
