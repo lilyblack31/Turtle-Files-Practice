@@ -4,6 +4,7 @@ To add in Python files created using the turtle module
 Various trial programs using the turtle module in Python will be created and tested.
 It can be used to increase the existing knowledge on Python.
 
-##Files in the repository as of now:
+## Files in the repository as of now:
   * simple_drawing.py : Creates a simple and good looking Mandala design
+  * spiral_in_spiral.py : Creates a simple Spiral design that contains another smaller spiral inside it
   
